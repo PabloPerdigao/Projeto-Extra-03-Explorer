@@ -107,6 +107,7 @@ fieldset {
   display: flex;
   gap: 22px;
   margin-bottom: 8px;
+  
 }
 .input-wrapper label span {
   color: #C1BCCC;
@@ -131,6 +132,7 @@ color:  #86828d;
 
   color: #727272;
   margin-bottom: 16px;
+  padding: 0px 24px;
 }
 
 .input-wrapper input {
@@ -255,6 +257,7 @@ h3 {
   color: #C1BCCC;
   font-size: 12px;
   line-height: 20px;
+  
 }
 
 
@@ -276,6 +279,7 @@ color:  #86828d;
 
   color: #727272;
   margin-bottom: 16px;
+  padding: 0px 24px;
   
 }
 .input-wrapper3-begin input,
@@ -305,5 +309,11 @@ footer .button {
   gap: 10px;
 
 }
+ footer .button:hover {
+  background: #ff2752;
+ }
 
+ input:invalid {
+  border: 1px solid #ff2752;
+ }
   
