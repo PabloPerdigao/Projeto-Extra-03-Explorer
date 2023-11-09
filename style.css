@@ -203,7 +203,27 @@ color:  #86828d;
 
 .fieldset-wrapper3 legend {
   padding-bottom: 8px;
+  margin-bottom: 32px;
 }
+
+.fieldset-wrapper3 h3{
+  color: #535971;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+h3 {
+  color: #535971;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+
+  
+}
+
 
 .input-wrapper3 label,
 .input-wrapper3-begin label,
@@ -211,7 +231,7 @@ color:  #86828d;
   display: flex;
   gap: 22px;
   margin-bottom: 8px;
-  padding-top: 32px;
+  padding-top: 8px;
   
 }
 
