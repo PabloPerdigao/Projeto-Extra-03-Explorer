@@ -101,7 +101,9 @@ fieldset {
   width: 100%;
 }
 
-.input-wrapper label {
+.input-wrapper label,
+.input-wrapper-name label,
+.input-wrapper-surname label {
   display: flex;
   gap: 22px;
   margin-bottom: 8px;
@@ -208,7 +210,7 @@ color:  #86828d;
 
 .col-3 {
   display: flex;
-  gap: 32px;
+  gap: 22px;
   margin-right: 278px ;
   width: 140px;
   
@@ -281,5 +283,27 @@ color:  #86828d;
   width: 140px;
 }
 
+footer {
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;
+  width: 750px;
+  height: 160px;
+  flex-shrink: 0;
+  padding: 52px 71px;
+}
+
+footer .button {
+  border-radius: 20px;
+  background: #FF5374;
+  border: none;
+  display: flex;
+  width: 608px;
+  height: 56px;
+  padding: 15px 40px;
+  justify-content: center;
+  
+  gap: 10px;
+
+}
 
   
