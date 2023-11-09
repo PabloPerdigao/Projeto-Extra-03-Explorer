@@ -90,16 +90,13 @@ fieldset {
   width: 622px;
 }
 
-.fieldset-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
+
 
 .col-2 {
   display: flex;
   gap: 22px;
   margin-right: 278px ;
+  
 }
 
 .col-2 > div:nth-child(1) {
@@ -109,6 +106,7 @@ fieldset {
 .input-wrapper label {
   display: flex;
   gap: 22px;
+  margin-bottom: 8px;
 }
 .input-wrapper label span {
   color: #C1BCCC;
@@ -132,5 +130,6 @@ color:  #86828d;
   background: #FAFAFC;
 
   color: #727272;
+  margin-bottom: 16px;
 }
 
